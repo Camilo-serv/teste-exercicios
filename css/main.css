@@ -26169,7 +26169,7 @@ uab-header {
     uab-header uab-header-titles .subtitle {
       font-weight: bold; }
     uab-header uab-header-titles .subtitle, uab-header uab-header-titles .caption {
-      font-size: 16pt;
+      font-size: 14.5pt;
       margin-left: 3rem; }
     uab-header uab-header-titles .titles {
       line-height: 1.1;
@@ -26242,7 +26242,7 @@ uab-header + md-content {
     -webkit-transform: translateY(calc( -100% + 56px));
     transform: translateY(calc( -100% + 56px)); }
   uab-header .uab-course-icon {
-    margin: 8px 0px;
+    *margin: 8px 0px;
     padding-left: 8px; } }
 
 body.hc > #root uab-header {

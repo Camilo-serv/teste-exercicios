@@ -1,15 +1,15 @@
 {
-    "nome": "Aula 01: Contrato Psicológico",
+    "nome": "Exercícios",
     "academico":{
-        "curso": "Bacharelado em Administração Pública",
-        "cursoIcone": "layout/icones/admin_pub_tit.svg",
-        "disciplina":"Psicologia do Desenvolvimento e da Aprendizagem na Adolescência",
-        "responsavel": "Professora Nidia Barone"
+        "curso": "Matemática",
+        "cursoIcone": "layout/icones/matematica_tit.svg",
+        "disciplina":"Material Estruturado de Matemática",
+        "responsavel": "Professor"
     },
     "topicos": [     
         
         {
-            "nome": "teste_exercicios",
+            "nome": "Exercício Resolvido 1 ",
             "local": "topicos/teste_exercicios.html",
             "audio": "audios/Abstract - I Do This (ft. Roze) Prod By Drumma Battalion.mp3",
             "default": true

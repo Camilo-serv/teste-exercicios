@@ -4,8 +4,27 @@
 /* ALTERAÇÕES ICONES DISCIPLINA */
 uab-header .uab-course-icon {
    
-      max-width: 280px;
+      max-width: 500px;
 }
+
+/* ALTERAÇÕES  CABEÇALHO */    
+uab-header uab-header-titles{
+  
+  padding: 8px 4px 8px;}  
+  }
+
+/* ALTERAÇÕES TAMANHO DA FONTE DISCIPLINA - LINHA 26172 */
+uab-header uab-header-titles .subtitle, uab-header uab-header-titles .caption {
+    font-size: 14pt;
+    margin-left: 3rem;
+
+   
+}
+  
+uab-header uab-header-titles .titles .caption{
+    font-size: 13.2pt;
+    
+    }
 
 /* ALTERAÇÕES QUADRO UAB */
 uab-quadro .uab-quadro .uab-quadro-body > md-card > md-card-content {
@@ -15,10 +34,10 @@ uab-quadro .uab-quadro .uab-quadro-body > md-card > md-card-content {
 /* ALTERAÇÕES FLUTUANTE CONTINUO */
 
 uab-dialog uab-dialog-content, uab-dialog-group uab-dialog-content {
-   display: none; text-decoration:underline; color: #9C27B0}
+   display: none; text-decoration:underline; color: #4A148C}
 
 uab-dialog [uab-dialog-trigger], uab-dialog-group [uab-dialog-trigger] {
- cursor: pointer; text-decoration:underline; color: #9C27B0}
+ cursor: pointer; text-decoration:underline; color: #4A148C}
 
 
 /* ALTERAÇÕES TABELAS DESTACADAS */
@@ -31,12 +50,13 @@ uab-dialog [uab-dialog-trigger], uab-dialog-group [uab-dialog-trigger] {
 
 /* cor dentro da tabela*/
 .table-striped > tbody > tr:nth-child(odd) > td, .table-striped > tbody > tr:nth-child(odd) > th {
-     background-color: rgba(156,39,176,0.1);
+    background-color: rgba(74,20,140,0.1);
 }
 /* TIRANDO RECUO DO PARAGRAFO(21116)*/
 .destaque.abnt {
       text-indent: 0px; }
 	  
+/* ADICIONANDO CLASS LEGENDA */	
 .legenda {
   display: block;
   margin: 0 auto 0.5em auto;
@@ -50,7 +70,7 @@ input {
   border: 1px solid #d6d6d6;
   background-color:#F5C3C4;
   padding: 2px; }
-  
+
 .correto {
   background: #ccffcc url(../layout/correto.gif) center right no-repeat scroll; }
 
@@ -66,7 +86,6 @@ input {
   background: red;
   margin-bottom: 12px; }  
   
-
 
 /* ALTERAÇÕES BOTÕES*/
 
@@ -90,13 +109,18 @@ min-height: 20px;
 /*ALTERANDO ESPAÇAMENTO PARAGRAFO EFEITO TABS VERTICAL*/
 
  uab-tabs-vertical .uab-tabs-body md-content p {
-		margin-top: -25px;
-		
+    margin-top: -25px;
  }
+
+ uab-tabs-vertical .uab-tabs-body md-content {
+    display: none;
+    max-height: 600px;
+}
+ 
  /*uab-quadro uab-sanfonado md-card (26458)*/
  
-  
-  /*Copyright (c) 2020 by Daniel Subat (https://codepen.io/bbx/pen/Jxoqdg)
+
+/*Copyright (c) 2020 by Daniel Subat (https://codepen.io/bbx/pen/Jxoqdg)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -104,7 +128,7 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*/
 
- /*	EFEITO PORTA RETRATO*/
+ /* EFEITO PORTA RETRATO*/
 .accondion {
   display: flex;
   justify-content: center;
@@ -116,12 +140,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .accondion .card {
   flex: 1;
   transition: all 1s ease-in-out;
-  height: 30vmin;
+  height: 33vmin;
   position: relative;
 }
 .accondion .card .card__head {
   color: #FFF ;
-  background: rgb(125, 31, 141);
+  background: rgb(0, 97, 86);
   padding: 0.5em;
   transform: rotate(-90deg);
   transform-origin: 0% 0%;
@@ -133,11 +157,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   left: 0;
   font-size: 1em;
   white-space: nowrap;
+  text-align:  left;
+  font-size: 12px;
 }
-
-
 .accondion .card:hover {
-  flex-grow: 10;
+  flex-grow: 6;
 }
 .accondion .card:hover img {
   filter: grayscale(0);
@@ -147,7 +171,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   top: calc(100% - 2em);
   color: white;
   background: rgba(0, 0, 0, 0.5);
-  font-size: 1em;
+  font-size: 0.9em;
   transform: rotate(0deg) skew(-1deg);
   padding:1px
   
@@ -162,3 +186,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .accondion .card:not(:nth-child(10)) {
   margin-right: 1em;
 }
+
+/*ALTERAÇÃO COR BOTÃO FORMULARIO*/
+.md-button.md-default-theme.md-raised, .md-button.md-raised {
+    color: rgb(0,0,0);
+    background-color: rgb(186, 104, 200);
+    font-weight: bolder;
+
