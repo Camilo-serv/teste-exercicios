@@ -10,14 +10,9 @@
         
         {
             "nome": "Exercícios resolvidos (Nível 1)",
-            "local": "topicos/teste_exercicios.html",
+            "local": "topicos/teste_exercicios_top2.html",
             "audio": "audios/Abstract - I Do This (ft. Roze) Prod By Drumma Battalion.mp3",
             "default": true
-        },
-        {
-            "nome": "teste_exercicios_top2",
-            "local": "topicos/teste_exercicios_top2.html",
-            "audio": "audios/grid.mp3"
         }
         
     ],
